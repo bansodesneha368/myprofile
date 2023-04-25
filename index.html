@@ -9,6 +9,37 @@
       #header {
         background-color: darkcyan;
         color: azure;
+        padding: 10px;
+      }
+      .span{
+        margin-right: 20px ;
+        margin-bottom: 10px;
+       
+      }
+      .anchor{
+        margin-right:20px ;
+        text-transform: capitalize;
+       
+      }
+      #i1{
+        margin-right: 10px;
+      }
+      
+      #i2{
+        margin-right: 10px;
+      }
+      #i3{
+        margin-right: 10px;
+      }
+      #i4{
+        margin-right: 10px;
+      }
+      #spn{
+        margin-right: 10px;
+      }
+      a:hover{
+        background-color: rgb(141, 136, 139);
+        color: rgb(13, 13, 13);
       }
     </style>
 
@@ -21,40 +52,41 @@
     <header >
       <span id="header">
       <i class="fa fa-user" aria-hidden="true"></i
-      ><span> rohit sharma</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      ><span class="span"> rohit sharma</span>
       <i class="fa fa-phone-square" aria-hidden="true"></i
-      ><span >1234567890</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      ><span class="span">1234567890</span>
       <i class="fa fa-envelope" aria-hidden="true"></i
-      ><span> rohitsharma@gmail.com</span>
+      ><span class="span"> rohitsharma@gmail.com</span>
      </span>
    
-      <br>
+      <br><br>
+
      
-    <a href="home.html" target="frame">home</a>&nbsp;&nbsp;&nbsp;
-    <a href="personal.html" target="frame">Personal</a>&nbsp;&nbsp;&nbsp;
-    <a href="education.html" target="frame">education</a>&nbsp;&nbsp;&nbsp;
-    <a href="contactUs.html" target="frame">contact us</a>&nbsp;&nbsp;&nbsp;
+    <a href="home.html" target="frame" class="anchor">home</a>
+    <a href="personal.html" target="frame" class="anchor">Personal</a>
+    <a href="education.html" target="frame" class="anchor">education</a>
+    <a href="contactUs.html" target="frame" class="anchor">contact us</a>
   </header>
 
-    <iframe height="550px" width="700px" name="frame" src="home.html"></iframe
+    <iframe height="600px" width="750px" name="frame" src="home.html"></iframe
     ><br />
     <footer>
-      Follow me&nbsp;&nbsp;
-      <a href="https://in.linkedin.com">
-        <i class="fa fa-linkedin" aria-hidden="true"></i> </a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
+      <span id="spn">Follow me</span>
+      <a href="https://in.linkedin.com" >
+        <i class="fa fa-linkedin" aria-hidden="true" id="i1"></i> </a
+      >
 
       <a href="https://workspace.google.com"
-        ><i class="fa fa-google" aria-hidden="true"></i> </a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
+        ><i class="fa fa-google" aria-hidden="true" id="i2"></i> </a
+      >
 
       <a href="https://help.instagram.com"
-        ><i class="fa fa-instagram" aria-hidden="true"></i> </a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
+        ><i class="fa fa-instagram" aria-hidden="true" id="i3"></i> </a
+      >
 
       <a href="https://www.facebook.com"
-        ><i class="fa fa-facebook-official" aria-hidden="true"></i> </a
-      >&nbsp;&nbsp;&nbsp;&nbsp;
+        ><i class="fa fa-facebook-official" aria-hidden="true" id="i4"></i> </a
+      >
     </footer>
   </body>
 </html>

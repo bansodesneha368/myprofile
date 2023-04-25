@@ -5,11 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
     <style>
+          *{
+            font-family: 'Roboto Slab', serif;
+         }
       .career{
           color: mediumvioletred;
           
           background-color: cornsilk;
+          text-transform: capitalize;
+          text-decoration: underline;
+          
       }
       #angular{
         color:palevioletred;
@@ -22,40 +32,61 @@
         
       }
       
+      h3{
+        color: mediumvioletred;
+          
+          background-color: cornsilk;
+          
+          text-decoration: underline;
+      }
+      .lists{
+       
+        margin-top: 8px;
+        word-spacing: 4px;
+        list-style-type: square;
+      }
+      #sp1{
+        text-transform: uppercase;
+        word-spacing: 8px;
+      }
+
   </style>
   </head>
   <body>
-    <h3 class="career">Career Objectives</h3>
-    TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATION GROWTH
-    <h3 class="career">Professional Summary</h3>
+    <h3 class="career" >Career Objectives:-</h3>
+    <span id="sp1">
+      to work in organization where i can learn and grow my Skills and help Organization Growth.
+    </span>
+  
+    <h3 class="career">Professional Summary:-</h3>
     <ul>
-      <li>
+      <li class="lists">
         Having 1 Years of experience in developing Single page Web Application
-        using<span id="angular">Angular 8</span> ,HTML5,CSS3,javaScript ,TypeScript
+        using<span id="angular"> Angular 8</span> ,HTML5 ,CSS3 ,javaScript ,TypeScript
       </li>
-      <li id="list2">
+      <li id="list2" class="lists">
         Experience on working with version control system -GIT and GitHub
       </li>
-      <li>Exprience working with JIRA for user stories and bug tracking</li>
-      <li>
+      <li class="lists">Exprience working with JIRA for user stories and bug tracking</li>
+      <li class="lists">
         Strong Debugging & Troubleshooting code experience using Chrome
         Developer Tool
       </li>
-      <li>working exposure on ID's like VS Code and Notpad++</li>
-      <li>Good working exposure under Agile methodologies environment</li>
-      <li>
+      <li class="lists">working exposure on ID's like VS Code and Notpad++</li>
+      <li class="lists">Good working exposure under Agile methodologies environment</li>
+      <li class="lists">
         Experience in using Chrome Developer Tool for debugging and
         Troubleshooting the code
       </li>
-      <li>Knowledge of NodeJ</li>
-      <li>Ability to Working With people at all levels in the program</li>
+      <li class="lists">Knowledge of NodeJ</li>
+      <li class="lists">Ability to Working With people at all levels in the program</li>
     </ul>
-    <h3>Hobbies</h3>
+    <h3>Hobbies:-</h3>
     <ul>
-      <li>Swimming</li>
-      <li> Playing Cricket</li>
-      <li>Reading Story Books</li>
-      <li>Mehandi&Rangoli</li>
+      <li class="lists">Swimming</li>
+      <li class="lists"> Playing Cricket</li>
+      <li class="lists">Reading Story Books</li>
+      <li class="lists">Mehandi&Rangoli</li>
     </ul>
   </body>
 </html>

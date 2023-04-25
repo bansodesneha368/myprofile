@@ -5,9 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us </title>
+    <style>
+        input{
+           height: 20px;
+           width: 200px;
+           margin-bottom: 10px;
+           border-radius: 10px;
+        }
+        label{
+            margin-bottom: 10px;
+        }
+        #btn1:hover{
+                   background-color: green;
+        }
+        #btn2:hover{
+            background-color: red;
+        }
+        input[type="Email"]{
+            color: aqua;
+        }
+        h2{
+            color:  mediumvioletred;
+            text-decoration: underline;
+        }
+        button{
+            background-color: lightblue;
+            padding: 8px;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <h2>Contact Us</h2>
+    <h2>Contact Us:-</h2>
     <table>
         <tbody>
             <tr>
@@ -24,11 +53,11 @@
             </tr>
             <tr>
                 <td><label>Enquiry:</label></td>
-                <td><textarea rows="10" ></textarea></td>
+                <td><textarea cols="25" rows="7"></textarea></td>
             </tr>
             <tr>
-                <td><button type="submit">Submit</button></td>
-                <td><button type="reset">Clear</button></td>
+                <td><button id="btn1" type="submit">Submit</button></td>
+                <td><button id="btn2" type="reset">Clear</button></td>
             </tr>
         </tbody>
     </table>
