@@ -1,0 +1,42 @@
+#h3{
+   padding-left: 80px;
+   
+}
+body{
+    background-color: #f2f2f2  ;
+}
+label{
+    padding-left: 30px;
+    font-size: large;
+    padding-top: 20px;
+}
+input{
+    padding: 8px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 60px;
+    padding-right: 80px;
+
+
+}
+button:hover{
+background-color: burlywood;
+}
+button{
+    background-color: rgb(95, 156, 4);
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#h4{
+    padding-left: 30px;
+}
+*{
+    color: cadetblue;
+    font-family:'Itim',cursive;
+}
+#input1{
+    margin-left: 125px;
+}
